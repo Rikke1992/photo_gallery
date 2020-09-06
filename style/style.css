@@ -1,0 +1,32 @@
+.wraper {
+    display: flex;
+    flex-direction: column;
+
+}
+.wraperMenu {
+   display: flex;
+   flex-direction: row;
+    margin: 25px;
+}
+.wraperContent {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#gepaButton {
+
+    color: #023;
+   padding: 15px;
+    margin: auto;
+
+}
+.probel {
+    padding 25px;
+    margin: 25px;
+}
+#gepaImage {
+    position: fixed;
+    margin-left: 30%;
+    margin-top: 150px;
+    visibility: hidden;
+}
