@@ -21,7 +21,7 @@
 
 }
 .probel {
-    padding 25px;
+    padding: 25px;
     margin: 25px;
 }
 #gepaImage {
@@ -29,4 +29,48 @@
     margin-left: 30%;
     margin-top: 150px;
     visibility: hidden;
+}
+
+#carousel {
+
+    margin:  auto;
+    width: 450px ;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+
+
+
+}
+
+#carouselImg img{
+
+    width: 150px ;
+    height: 150px;
+
+
+}
+
+#carouselImg {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 0px;
+    transition: all ease 1s;
+;
+
+}
+
+/*#carouselImg::after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*clear: both;*/
+
+
+/*}*/
+
+.button{
+
+text-align: center;
+    margin:  75px;
 }
